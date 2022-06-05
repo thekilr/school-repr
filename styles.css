@@ -1,0 +1,79 @@
+body {
+    background-image: url('images/Tech.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #f5f5f5;
+  }
+  li {
+    font-family: 'Trirong', serif;
+    float: left;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+
+    li a {
+      display: block;
+      color:#e7e7e7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+ 
+ 
+ 
+    .navbar{
+      position: sticky;
+      top: 0;
+      width: 100%;
+      border: 1px solid #666;
+      background-color: #333;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: 'Tritong' serif;
+    }
+     
+      .heading{ 
+        background-color: #333;
+        font-family: 'Garamond', serif;
+        color:white; 
+        font-size: 2vw;
+        padding: 1vw;
+        border-radius: 0.75vw;
+      }
+      .para1{
+        font-family: 'Trirong', serif;
+        color:white;
+        font-size: 1.5vw; 
+        border-radius: 0.75vw;
+      }
+      .vidlat{
+        color: #333;
+        background-color: oldlace;
+        padding: 3vw ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5vw;
+        border-radius: 0.75vw;
+      }
+      .footer{
+        background-color:#333;
+        padding: 1vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #e7e7e7;
+        border-radius: 0.75vw;
+      }
+      .vid{
+        background-color: #333;
+        padding:0.75vw;
+        font-family: 'Garamond', serif;
+        color:#f5f5f5;
+        font-size: 1.5vw;
+        border-radius: 0.75vw;
+      }
